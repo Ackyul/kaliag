@@ -40,12 +40,6 @@ const modalProductTags = document.getElementById('modal-product-tags');
 const modalBtnAddCart = document.getElementById('modal-btn-add-cart');
 const modalBtnWhatsapp = document.getElementById('modal-btn-whatsapp');
 
-const servicesModalEl = document.getElementById('services-modal');
-const btnServicesGuide = document.getElementById('btn-services-guide');
-const footerGuideLink = document.getElementById('footer-guide-link');
-const closeServicesModal = document.getElementById('close-services-modal');
-const btnUnderstoodServices = document.getElementById('btn-understood-services');
-
 const contactForm = document.getElementById('contact-form');
 const contactRegionSelect = document.getElementById('contact-region');
 const formStatusMsg = document.getElementById('form-status-msg');
@@ -463,32 +457,6 @@ function setupEventListeners() {
         const text = `Hola KALIAG European Industry, deseo cotizar el producto: *${state.selectedProduct.name}* (Código: ${state.selectedProduct.code}). Por favor brindar ficha técnica y precio.`;
         window.open(`https://wa.me/51908863625?text=${encodeURIComponent(text)}`, '_blank');
       }
-    });
-  }
-
-  // Services Guide Modal
-  if (btnServicesGuide) {
-    btnServicesGuide.addEventListener('click', () => {
-      if (servicesModalEl) servicesModalEl.classList.remove('hidden');
-    });
-  }
-
-  if (footerGuideLink) {
-    footerGuideLink.addEventListener('click', (e) => {
-      e.preventDefault();
-      if (servicesModalEl) servicesModalEl.classList.remove('hidden');
-    });
-  }
-
-  if (closeServicesModal) {
-    closeServicesModal.addEventListener('click', () => {
-      if (servicesModalEl) servicesModalEl.classList.add('hidden');
-    });
-  }
-
-  if (btnUnderstoodServices) {
-    btnUnderstoodServices.addEventListener('click', () => {
-      if (servicesModalEl) servicesModalEl.classList.add('hidden');
     });
   }
 
