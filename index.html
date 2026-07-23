@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KALIAG European Industry | Maquinaria Industrial, Motobombas, Generadores y Peke Peke en el Perú</title>
+  <meta name="description" content="Catálogo oficial KALIAG European Industry en el Perú. Especialistas en generadores eléctricos, motobombas agrícolas, fumigadoras parihuela, motores fuera de borda Peke Peke, soldadoras y compresoras." />
+  <!-- Google Fonts: Montserrat, Inter & Playfair/Georgia for KALIAG serif feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-ticker">
+        <span class="ticker-badge"><span class="pulse-dot"></span> DISTRIBUIDOR AUTORIZADO PERÚ</span>
+        <span class="ticker-text">Envíos directos a Lima, Loreto, Ucayali, San Martín, Piura, Arequipa y todo el Perú</span>
+      </div>
+      <div class="topbar-info">
+        <a href="tel:+51908863625" class="topbar-link"><i class="fa-solid fa-phone"></i> Central: +51 908 863 625</a>
+        <button id="btn-services-guide" class="btn-guide-link">
+          <i class="fa-solid fa-bolt"></i> Guía Hosting Gratis y Cero Gastos
+        </button>
+        <span class="flag-peru">🇵🇪 Perú</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="header" id="main-header">
+    <div class="container header-container">
+      
+      <!-- KALIAG Brand Logo with SVG Emblem -->
+      <a href="#" class="logo">
+        <div class="logo-graphic">
+          <svg class="kaliag-svg-logo" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+            <!-- Roof / Peak shape in Royal Blue -->
+            <polygon points="100,10 160,55 130,55 100,32 70,55 40,55" fill="#0040A8" />
+            <!-- Inner accent shape -->
+            <polygon points="100,22 145,55 125,55 100,36 75,55 55,55" fill="#0072CE" />
+            <!-- Red Wave Curve -->
+            <path d="M 30,70 Q 100,45 170,75 Q 110,95 30,70 Z" fill="#E30613" />
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-kaliag-title">KALIAG</span>
+          <span class="logo-kaliag-sub">European Industry</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links (Desktop) -->
+      <nav class="nav-menu">
+        <a href="#hero-slider" class="nav-link active">Inicio</a>
+        <a href="#catalogo" class="nav-link">Productos KALIAG</a>
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <!-- Instant Live Search Bar -->
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" id="search-input" placeholder="Buscar generador, motobomba, peke peke KALIAG..." autocomplete="off" />
+        <button id="search-clear" class="search-clear hidden" title="Limpiar búsqueda"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <button id="btn-quote-cart" class="btn btn-primary btn-sm btn-cart">
+          <i class="fa-solid fa-file-signature"></i>
+          <span>Cotizador</span>
+          <span id="cart-count" class="cart-badge">0</span>
+        </button>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-toggle" class="mobile-toggle" aria-label="Abrir Menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay / Menu -->
+  <div id="mobile-nav-drawer" class="mobile-drawer hidden">
+    <div class="mobile-drawer-header">
+      <div class="logo-text">
+        <span class="logo-kaliag-title" style="font-size:1.4rem;">KALIAG</span>
+        <span class="logo-kaliag-sub">European Industry</span>
+      </div>
+      <button id="mobile-menu-close" class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="mobile-drawer-body">
+      <a href="#hero-slider" class="mobile-link"><i class="fa-solid fa-house"></i> Inicio</a>
+      <a href="#catalogo" class="mobile-link"><i class="fa-solid fa-cubes"></i> Catálogo KALIAG</a>
+      <a href="#nosotros" class="mobile-link"><i class="fa-solid fa-building-user"></i> Marca & Garantía</a>
+      <a href="#contacto" class="mobile-link"><i class="fa-solid fa-envelope"></i> Contáctanos</a>
+      <hr class="mobile-divider" />
+      <div class="mobile-contact-info">
+        <p><i class="fa-solid fa-phone"></i> Central: +51 908 863 625</p>
+        <p><i class="fa-solid fa-location-dot"></i> Ate Vitarte & Cercado de Lima</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Carousel Slider Section -->
+  <section id="hero-slider" class="hero-slider-section">
+    <div class="hero-slides-wrapper">
+      
+      <!-- Slide 1: Generadores Eléctricos KALIAG -->
+      <div class="hero-slide active" data-slide="0">
+        <div class="slide-bg" style="background-image: linear-gradient(135deg, rgba(11,37,130,0.92) 0%, rgba(15,23,42,0.85) 100%), url('/images/generator.png');"></div>
+        <div class="container slide-content">
+          <div class="slide-text">
+            <span class="hero-chip"><i class="fa-solid fa-shield-halved"></i> TECNOLOGÍA EUROPEA KALIAG</span>
+            <h1 class="slide-title">Generadores Eléctricos <span class="highlight">KALIAG Industry</span></h1>
+            <p class="slide-desc">Potencia máxima a gasolina y diésel insonorizados desde 2 KVA hasta 10 KVA. Equipados con tecnología AVR para obras, minería y respaldo comercial.</p>
+            <div class="slide-actions">
+              <a href="#catalogo" class="btn btn-primary btn-lg" onclick="window.selectCategory('generadores')">
+                <i class="fa-solid fa-bolt"></i> Ver Generadores KALIAG
+              </a>
+              <button class="btn btn-whatsapp btn-lg btn-fast-wa" data-query="Hola KALIAG Perú, solicito información de los Generadores Eléctricos KALIAG">
+                <i class="fa-brands fa-whatsapp"></i> Consulta por WhatsApp
+              </button>
+            </div>
+          </div>
+          <div class="slide-graphic">
+            <div class="graphic-card-frame">
+              <img src="/images/generator.png" alt="Generador Eléctrico KALIAG" class="hero-img-showcase" />
+              <div class="graphic-badge"><i class="fa-solid fa-shield-check"></i> Garantía KALIAG 12 Meses</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: Motobombas y Electrobombas -->
+      <div class="hero-slide" data-slide="1">
+        <div class="slide-bg" style="background-image: linear-gradient(135deg, rgba(11,37,130,0.92) 0%, rgba(15,23,42,0.85) 100%), url('/images/motobomba.png');"></div>
+        <div class="container slide-content">
+          <div class="slide-text">
+            <span class="hero-chip"><i class="fa-solid fa-water"></i> BOMBEO INDUSTRIAL KALIAG</span>
+            <h1 class="slide-title">Motobombas Agrícolas <span class="highlight">KALIAG 3" & 2"</span></h1>
+            <p class="slide-desc">Motobombas de alta presión e impulsión vertical. Diseñadas para riego por goteo/aspersión, drenaje y uso agrícola intensivo en todo el Perú.</p>
+            <div class="slide-actions">
+              <a href="#catalogo" class="btn btn-primary btn-lg" onclick="window.selectCategory('bombas')">
+                <i class="fa-solid fa-water"></i> Ver Motobombas KALIAG
+              </a>
+              <button class="btn btn-whatsapp btn-lg btn-fast-wa" data-query="Hola KALIAG Perú, me interesan las Motobombas KALIAG European Industry">
+                <i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp
+              </button>
+            </div>
+          </div>
+          <div class="slide-graphic">
+            <div class="graphic-card-frame">
+              <img src="/images/motobomba.png" alt="Motobomba de Agua KALIAG" class="hero-img-showcase" />
+              <div class="graphic-badge"><i class="fa-solid fa-droplet"></i> Caudal 1000 L/min</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Transporte Fluvial Peke Peke -->
+      <div class="hero-slide" data-slide="2">
+        <div class="slide-bg" style="background-image: linear-gradient(135deg, rgba(11,37,130,0.92) 0%, rgba(15,23,42,0.85) 100%), url('/images/pekepeke.png');"></div>
+        <div class="container slide-content">
+          <div class="slide-text">
+            <span class="hero-chip"><i class="fa-solid fa-anchor"></i> MOTORES MARINOS PEKE PEKE</span>
+            <h1 class="slide-title">KALIAG Peke Peke <span class="highlight">Torque Fluvial</span></h1>
+            <p class="slide-desc">Motores fuera de borda de cola larga de 6.5 HP a 16 HP con hélice de bronce especial y eje inoxidable. La mayor durabilidad en los ríos de la Amazonía.</p>
+            <div class="slide-actions">
+              <a href="#catalogo" class="btn btn-primary btn-lg" onclick="window.selectCategory('fluvial')">
+                <i class="fa-solid fa-anchor"></i> Ver Peke Peke KALIAG
+              </a>
+              <button class="btn btn-whatsapp btn-lg btn-fast-wa" data-query="Hola KALIAG Perú, solicito cotizar motores Peke Peke para transporte fluvial">
+                <i class="fa-brands fa-whatsapp"></i> Asesoría Fluvial
+              </button>
+            </div>
+          </div>
+          <div class="slide-graphic">
+            <div class="graphic-card-frame">
+              <img src="/images/pekepeke.png" alt="Motor Peke Peke KALIAG" class="hero-img-showcase" />
+              <div class="graphic-badge"><i class="fa-solid fa-ship"></i> Especial Oriente Peruano</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Fumigación Agrícola Parihuela -->
+      <div class="hero-slide" data-slide="3">
+        <div class="slide-bg" style="background-image: linear-gradient(135deg, rgba(11,37,130,0.92) 0%, rgba(15,23,42,0.85) 100%), url('/images/fumigadora.png');"></div>
+        <div class="container slide-content">
+          <div class="slide-text">
+            <span class="hero-chip"><i class="fa-solid fa-seedling"></i> FUMIGACIÓN AGRÍCOLA KALIAG</span>
+            <h1 class="slide-title">Fumigadoras Parihuela <span class="highlight">KALIAG 6.5 HP</span></h1>
+            <p class="slide-desc">Fumigadoras estacionarias con triplex pistones de cerámica y manguera de 50 metros. Cobertura uniforme y alta presión para cultivos extensivos.</p>
+            <div class="slide-actions">
+              <a href="#catalogo" class="btn btn-primary btn-lg" onclick="window.selectCategory('agricultura')">
+                <i class="fa-solid fa-seedling"></i> Ver Fumigadoras KALIAG
+              </a>
+              <button class="btn btn-whatsapp btn-lg btn-fast-wa" data-query="Hola KALIAG Perú, deseo cotizar Fumigadoras de Parihuela KALIAG">
+                <i class="fa-brands fa-whatsapp"></i> Cotizar Fumigadora
+              </button>
+            </div>
+          </div>
+          <div class="slide-graphic">
+            <div class="graphic-card-frame">
+              <img src="/images/fumigadora.png" alt="Fumigadora de Parihuela KALIAG" class="hero-img-showcase" />
+              <div class="graphic-badge"><i class="fa-solid fa-leaf"></i> 650 PSI Presión</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Slider Navigation Controls -->
+    <div class="slider-controls container">
+      <button class="slider-arrow prev" id="slider-prev" title="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="slider-dots" id="slider-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+      </div>
+      <button class="slider-arrow next" id="slider-next" title="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- Key Metrics & Heritage Ribbon -->
+  <section class="heritage-ribbon">
+    <div class="container ribbon-grid">
+      <div class="ribbon-item">
+        <div class="ribbon-icon"><i class="fa-solid fa-award"></i></div>
+        <div class="ribbon-info">
+          <h4>KALIAG European Industry</h4>
+          <p>Calidad industrial y estándar internacional</p>
+        </div>
+      </div>
+
+      <div class="ribbon-item">
+        <div class="ribbon-icon"><i class="fa-solid fa-truck-fast"></i></div>
+        <div class="ribbon-info">
+          <h4>Despacho a Nivel Nacional</h4>
+          <p>Envíos diarios a las 24 regiones del Perú</p>
+        </div>
+      </div>
+
+      <div class="ribbon-item">
+        <div class="ribbon-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="ribbon-info">
+          <h4>12 Meses de Garantía Directa</h4>
+          <p>Soporte de repuestos y servicio técnico</p>
+        </div>
+      </div>
+
+      <div class="ribbon-item">
+        <div class="ribbon-icon"><i class="fa-brands fa-whatsapp"></i></div>
+        <div class="ribbon-info">
+          <h4>Cotización Inmediata</h4>
+          <p>Atención directa por WhatsApp en minutos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dynamic Product Catalog Section -->
+  <section id="catalogo" class="catalog-section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-subtitle">CATÁLOGO OFICIAL KALIAG EUROPEAN INDUSTRY</span>
+          <h2 class="section-title">Maquinaria Industrial, Motores y Bombas</h2>
+        </div>
+        <div class="results-count" id="results-count">Cargando productos...</div>
+      </div>
+
+      <!-- Category Navigation Filter Pills -->
+      <div class="category-pills" id="category-pills">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Heritage & Brand Section -->
+  <section id="nosotros" class="about-section">
+    <div class="container about-grid">
+      <div class="about-text">
+        <span class="section-subtitle">ACERCA DE LA MARCA</span>
+        <h2 class="section-title">KALIAG European Industry: Innovación y Robustez para el Trabajo Duro</h2>
+        <p class="about-lead">
+          **KALIAG European Industry** es la marca líder en maquinaria de potencia, motobombas, generadores eléctricos y motores de alto rendimiento. En el Perú, brindamos equipamiento de máxima durabilidad pensado para resistir las condiciones climáticas y geográficas más exigentes de la costa, sierra y selva.
+        </p>
+        <p class="about-body">
+          Contamos con red de distribución directa y almacenes centrales en Lima (Ate Vitarte & Cercado de Lima), garantizando envíos inmediatos por agencias de carga a Iquitos, Pucallpa, Tarapoto, Arequipa, Trujillo, Piura, Cusco y todo el territorio peruano.
+        </p>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <i class="fa-solid fa-gears"></i>
+            <h4>Tecnología de Ingeniería</h4>
+            <p>Sistemas de inyección OHV y reguladores AVR de máxima precisión.</p>
+          </div>
+          <div class="value-card">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h4>Repuestos Garantizados</h4>
+            <p>Disponibilidad permanente de repuestos originales KALIAG.</p>
+          </div>
+          <div class="value-card">
+            <i class="fa-solid fa-truck-ramp-box"></i>
+            <h4>Despacho Nacional</h4>
+            <p>Embalaje seguro y envío rápido a todas las agencias provinciales.</p>
+          </div>
+          <div class="value-card">
+            <i class="fa-solid fa-headset"></i>
+            <h4>Soporte Especializado</h4>
+            <p>Asesoría en cálculo de potencia (KVA/HP) para cada proyecto.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Visual Frame -->
+      <div class="about-visual">
+        <div class="heritage-card">
+          <div class="heritage-badge">KALIAG PERÚ</div>
+          <h3>Excelencia en Maquinaria Industrial</h3>
+          <ul class="heritage-list">
+            <li><i class="fa-solid fa-check-circle"></i> Motores de alta eficiencia de 6.5 HP a 16 HP</li>
+            <li><i class="fa-solid fa-check-circle"></i> Sede Central: Av. Separadora Industrial 2509, Ate</li>
+            <li><i class="fa-solid fa-check-circle"></i> Sede Comercial: Av. Argentina 371, Lima</li>
+            <li><i class="fa-solid fa-check-circle"></i> Garantía oficial KALIAG por 12 meses</li>
+          </ul>
+          <div class="heritage-footer">
+            <a href="#contacto" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Contactar a Ventas KALIAG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real Working Contact & Quotation Form Section -->
+  <section id="contacto" class="contact-section">
+    <div class="container contact-grid">
+      
+      <!-- Contact Info Sidebar -->
+      <div class="contact-info">
+        <span class="section-subtitle">ATENCIÓN COMERCIAL KALIAG</span>
+        <h2 class="section-title">Solicita tu Cotización Formal KALIAG</h2>
+        <p class="contact-desc">
+          Completa el formulario para recibir tu presupuesto formal con ficha técnica, precios al por mayor o menor y costo de despacho a tu provincia.
+        </p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <strong>Central Telefónica & WhatsApp KALIAG</strong>
+              <p><a href="tel:+51908863625">+51 908 863 625</a> / <a href="tel:+51963878063">+51 963 878 063</a></p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <strong>Correo de Ventas Corporativas</strong>
+              <p><a href="mailto:ventas@mebaperu.com">ventas@mebaperu.com</a> / <a href="mailto:cotizaciones@mebaperu.com">cotizaciones@mebaperu.com</a></p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Almacenes & Exposición</strong>
+              <p>Av. Separadora Industrial 2509, Ate Vitarte / Av. Argentina 371, Lima</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <strong>Horario de Atención</strong>
+              <p>Lunes a Viernes: 8:00 am - 6:00 pm | Sábados: 8:00 am - 1:00 pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Direct Contact Form -->
+      <div class="contact-form-wrapper">
+        <div class="form-header">
+          <h3><i class="fa-solid fa-paper-plane"></i> Formulario de Cotización Inmediata</h3>
+          <p>Recibe respuesta directa de un asesor técnico KALIAG en menos de 30 minutos.</p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY_HERE" />
+          <input type="hidden" name="subject" value="Nueva Cotización KALIAG European Industry" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Nombre y Apellidos *</label>
+              <input type="text" id="contact-name" name="name" required placeholder="Ej: Carlos Mendoza" />
+            </div>
+            <div class="form-group">
+              <label for="contact-company">Empresa / RUC (Opcional)</label>
+              <input type="text" id="contact-company" name="company" placeholder="Ej: Inversiones Agrícolas S.A.C." />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-phone">Teléfono / WhatsApp *</label>
+              <input type="tel" id="contact-phone" name="phone" required placeholder="Ej: 987654321" />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Correo Electrónico *</label>
+              <input type="email" id="contact-email" name="email" required placeholder="ejemplo@correo.com" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-region">Región / Destino de Despacho *</label>
+              <select id="contact-region" name="region" required>
+                <option value="">Selecciona tu provincia / región...</option>
+                <!-- Rendered dynamically -->
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-interest">Tipo de Consulta *</label>
+              <select id="contact-interest" name="type" required>
+                <option value="Cotización de Maquinaria KALIAG">Cotización de Maquinaria KALIAG</option>
+                <option value="Compra Mayorista / Distribuidor">Compra Mayorista / Distribuidor</option>
+                <option value="Soporte Técnico y Repuestos">Soporte Técnico y Repuestos</option>
+                <option value="Consulta General">Consulta General</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Mensaje o Detalle del Pedido *</label>
+            <textarea id="contact-message" name="message" rows="4" required placeholder="Indica los modelos KALIAG que necesitas, potencia en HP/KVA o requerimientos de tu proyecto..."></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" id="btn-submit-form" class="btn btn-primary btn-block">
+              <i class="fa-solid fa-paper-plane"></i> Enviar Cotización Ahora
+            </button>
+          </div>
+          <div id="form-status-msg" class="form-status-msg hidden"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <div class="logo-graphic">
+            <svg class="kaliag-svg-logo" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="100,10 160,55 130,55 100,32 70,55 40,55" fill="#FFFFFF" />
+              <path d="M 30,70 Q 100,45 170,75 Q 110,95 30,70 Z" fill="#E30613" />
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-kaliag-title" style="color:#FFF;">KALIAG</span>
+            <span class="logo-kaliag-sub" style="color:#E30613;">European Industry</span>
+          </div>
+        </a>
+        <p>Soluciones industriales KALIAG de generación eléctrica, motobombas agrícolas, fumigadoras y motores de alta potencia para el desarrollo del Perú.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Líneas de Maquinaria</h4>
+        <ul>
+          <li><a href="#catalogo" onclick="window.selectCategory('generadores')">Generadores KALIAG</a></li>
+          <li><a href="#catalogo" onclick="window.selectCategory('bombas')">Motobombas Agrícolas</a></li>
+          <li><a href="#catalogo" onclick="window.selectCategory('fluvial')">Motores Peke Peke</a></li>
+          <li><a href="#catalogo" onclick="window.selectCategory('agricultura')">Fumigadoras Parihuela</a></li>
+          <li><a href="#catalogo" onclick="window.selectCategory('taller')">Soldadoras y Compresoras</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#hero-slider">Inicio</a></li>
+          <li><a href="#catalogo">Catálogo KALIAG</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contáctanos</a></li>
+          <li><a href="#" id="footer-guide-link">Guía Hosting Cero Gastos</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>© 2026 KALIAG European Industry - Todos los derechos reservados. Distribuidor Autorizado en el Perú.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Specifications Modal -->
+  <div id="product-modal" class="modal-overlay hidden">
+    <div class="modal-card modal-lg">
+      <div class="modal-header">
+        <h3 id="modal-product-title">Especificaciones Técnicas</h3>
+        <button class="modal-close" id="close-product-modal"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body product-modal-grid">
+        <div class="product-modal-left">
+          <img id="modal-product-img" src="/images/generator.png" alt="Producto KALIAG" class="modal-product-image" />
+          <div class="product-modal-tags" id="modal-product-tags"></div>
+        </div>
+        <div class="product-modal-right">
+          <div class="modal-code" id="modal-product-code">CÓDIGO: --</div>
+          <p class="modal-desc" id="modal-product-desc">--</p>
+          <div class="specs-table-title"><i class="fa-solid fa-list-check"></i> Ficha Técnica Oficial KALIAG</div>
+          <table class="specs-table">
+            <tbody id="modal-product-specs">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+          <div class="modal-actions">
+            <button id="modal-btn-add-cart" class="btn btn-primary">
+              <i class="fa-solid fa-cart-plus"></i> Agregar a mi Cotización
+            </button>
+            <button id="modal-btn-whatsapp" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Consulta por WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart / Quotation Drawer Modal -->
+  <div id="cart-drawer" class="modal-overlay hidden">
+    <div class="drawer-card">
+      <div class="drawer-header">
+        <h3><i class="fa-solid fa-file-signature"></i> Mi Lista de Cotización KALIAG</h3>
+        <button class="modal-close" id="close-cart-drawer"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="drawer-body">
+        <div id="cart-empty-msg" class="cart-empty">
+          <i class="fa-solid fa-basket-shopping"></i>
+          <p>Aún no has agregado equipos a tu lista de cotización.</p>
+          <button class="btn btn-outline btn-sm" id="btn-browse-from-cart">Explorar Catálogo</button>
+        </div>
+        <div id="cart-items-list" class="cart-items-list">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+      <div class="drawer-footer">
+        <div class="drawer-summary" id="drawer-summary" style="display:none;">
+          <div class="summary-line">
+            <span>Total de ítems a cotizar:</span>
+            <strong id="summary-items-count">0</strong>
+          </div>
+        </div>
+        <div class="drawer-buttons">
+          <button id="btn-send-cart-whatsapp" class="btn btn-whatsapp btn-block" disabled>
+            <i class="fa-brands fa-whatsapp"></i> Solicitar Cotización por WhatsApp
+          </button>
+          <a href="#contacto" id="btn-send-cart-form" class="btn btn-secondary btn-block" disabled style="display:block; text-align:center;">
+            <i class="fa-solid fa-paper-plane"></i> Enviar Lista al Formulario
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cost-Saving Hosting & Deployment Guide Modal -->
+  <div id="services-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-coins"></i> Guía: Operar esta Web a Cero Costo Mensual ($0/mes)</h3>
+        <button class="modal-close" id="close-services-modal"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-lead">Para publicar esta web ultra rápida sin pagar mensualidades de hosting, utiliza esta arquitectura moderna recomendada:</p>
+        
+        <div class="services-list">
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+            <div class="service-info">
+              <h4>1. Hosting Gratuito Ultra Rápido</h4>
+              <p><strong>Vercel</strong> o <strong>Cloudflare Pages</strong> o <strong>Netlify</strong>.</p>
+              <span class="badge-free">$0.00 al mes</span>
+              <p class="service-desc">Incluye SSL gratuito (HTTPS), CDN en Perú y soporte de tráfico sin costo alguno.</p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+            <div class="service-info">
+              <h4>2. Dominio Web Propio (.com / .pe)</h4>
+              <p><strong>Porkbun / Cloudflare Registrar</strong> (`.com`) o <strong>NIC.pe</strong> (`.pe`).</p>
+              <span class="badge-price">~$10 USD/año (`.com`)</span>
+              <p class="service-desc">Es el único pago directo en el año. Sin renovaciones infladas.</p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+            <div class="service-info">
+              <h4>3. Envío de Formulario Sin Servidor</h4>
+              <p><strong>Web3Forms</strong> o <strong>EmailJS</strong>.</p>
+              <span class="badge-free">$0.00 al mes</span>
+              <p class="service-desc">Envía los correos del formulario directamente a tu Gmail o correo corporativo sin necesitar cPanel ni PHP.</p>
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="service-info">
+              <h4>4. Cotizador Automático por WhatsApp</h4>
+              <p><strong>API WhatsApp Web / App</strong></p>
+              <span class="badge-free">100% Gratis</span>
+              <p class="service-desc">El cliente arma su lista de máquinas en la web y al hacer clic en "Cotizar por WhatsApp", se abre su chat listo para enviar el pedido.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="btn-understood-services">Entendido, ¡Excelente!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form Success Modal -->
+  <div id="success-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header success-header">
+        <h3><i class="fa-solid fa-circle-check"></i> ¡Cotización KALIAG Recibida Exitosamente!</h3>
+        <button class="modal-close" id="close-success-modal"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p>Tu mensaje y solicitud de cotización han sido registrados. Un asesor comercial de KALIAG European Industry te contactará a la brevedad.</p>
+        <div class="success-summary-box" id="success-summary-box">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="btn-close-success">Entendido</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/51908863625?text=Hola%20KALIAG%20European%20Industry%2C%20deseo%20cotizar%20maquinaria%20e%20informaci%C3%B3n" target="_blank" rel="noopener" id="floating-whatsapp" class="floating-whatsapp" title="Consultar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Cotiza KALIAG por WhatsApp en Vivo</span>
+  </a>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
