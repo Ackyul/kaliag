@@ -1654,28 +1654,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .mobile-toggle {
-    display: block;
-  }
-
-  .slide-content {
-    grid-template-columns: 1fr;
-    padding: 40px 20px;
-  }
-
-  .slide-graphic {
-    display: none;
-  }
-
-  .slide-title {
-    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-grid, .contact-grid {
     grid-template-columns: 1fr;
+    gap: 30px;
   }
 
   .footer-content {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 
   .product-modal-grid {
@@ -1683,21 +1674,263 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+  /* Topbar */
+  .topbar {
+    padding: 6px 0;
+    font-size: 0.78rem;
+  }
+
   .topbar-content {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+  }
+
+  .topbar-ticker {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .topbar-info {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  /* Header */
+  .header-container {
+    flex-wrap: wrap;
+    padding: 8px 16px;
+    gap: 10px;
+  }
+
+  .logo-kaliag-title {
+    font-size: 1.35rem;
+  }
+
+  .logo-kaliag-sub {
+    font-size: 0.65rem;
+  }
+
+  .search-box {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 4px;
+  }
+
+  .search-box input {
+    padding: 8px 32px 8px 34px;
+    font-size: 0.85rem;
+  }
+
+  .header-actions {
+    gap: 8px;
+  }
+
+  .btn-cart {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  /* Hero Slider */
+  .hero-slide {
+    min-height: auto;
+  }
+
+  .slide-content {
+    grid-template-columns: 1fr;
+    padding: 30px 16px 40px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .slide-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-chip {
+    font-size: 0.7rem;
+    padding: 4px 10px;
+  }
+
+  .slide-title {
+    font-size: 1.65rem;
+    line-height: 1.25;
+    margin: 12px 0;
+  }
+
+  .slide-desc {
+    font-size: 0.88rem;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .slide-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .slide-actions .btn {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 0.95rem;
+  }
+
+  .slide-graphic {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .graphic-card-frame {
+    max-width: 280px;
+    padding: 12px;
+  }
+
+  .hero-img-showcase {
+    max-height: 160px;
+  }
+
+  /* Heritage Ribbon */
+  .ribbon-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px 16px;
+  }
+
+  .ribbon-item {
+    gap: 10px;
+  }
+
+  .ribbon-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+
+  .ribbon-info h4 {
+    font-size: 0.85rem;
+  }
+
+  .ribbon-info p {
+    font-size: 0.75rem;
+  }
+
+  /* Catalog & Pills */
+  .section-header {
+    flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .category-pills {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .category-pills::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pill-btn {
+    flex-shrink: 0;
+    padding: 8px 16px;
+    font-size: 0.82rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+  }
+
+  /* About & Values */
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .about-visual {
+    margin-top: 10px;
+  }
+
+  /* Contact Form & Info */
+  .contact-section {
+    padding: 40px 0;
   }
 
   .form-row {
     grid-template-columns: 1fr;
+    gap: 12px;
   }
 
-  .search-box {
-    max-width: 100%;
+  .form-header h3 {
+    font-size: 1.1rem;
   }
 
-  .header-container {
-    flex-wrap: wrap;
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  /* Floating WhatsApp */
+  .floating-whatsapp {
+    bottom: 16px;
+    right: 16px;
+    width: 52px;
+    height: 52px;
+    font-size: 1.75rem;
+  }
+
+  .whatsapp-tooltip {
+    display: none;
+  }
+
+  /* Modals */
+  .modal-card {
+    width: 95%;
+    max-height: 90vh;
+    margin: 10px;
+    padding: 0;
+  }
+
+  .drawer-card {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .ribbon-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .slide-title {
+    font-size: 1.45rem;
+  }
+
+  .logo-kaliag-title {
+    font-size: 1.25rem;
+  }
+
+  .topbar-ticker {
+    font-size: 0.74rem;
   }
 }
