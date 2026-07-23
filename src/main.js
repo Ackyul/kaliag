@@ -414,7 +414,7 @@ function setupEventListeners() {
       });
       text += `\n*Por favor indicarme disponibilidad y costo de envío a provincia.*`;
       
-      const url = `https://wa.me/51908863625?text=${encodeURIComponent(text)}`;
+      const url = `https://wa.me/51979626611?text=${encodeURIComponent(text)}`;
       window.open(url, '_blank');
     });
   }
@@ -455,7 +455,7 @@ function setupEventListeners() {
     modalBtnWhatsapp.addEventListener('click', () => {
       if (state.selectedProduct) {
         const text = `Hola KALIAG European Industry, deseo cotizar el producto: *${state.selectedProduct.name}* (Código: ${state.selectedProduct.code}). Por favor brindar ficha técnica y precio.`;
-        window.open(`https://wa.me/51908863625?text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://wa.me/51979626611?text=${encodeURIComponent(text)}`, '_blank');
       }
     });
   }
@@ -483,7 +483,7 @@ function setupEventListeners() {
   document.querySelectorAll('.btn-fast-wa').forEach(btn => {
     btn.addEventListener('click', () => {
       const query = btn.dataset.query || 'Hola KALIAG European Industry, solicito cotización de equipos';
-      window.open(`https://wa.me/51908863625?text=${encodeURIComponent(query)}`, '_blank');
+      window.open(`https://wa.me/51979626611?text=${encodeURIComponent(query)}`, '_blank');
     });
   });
 
